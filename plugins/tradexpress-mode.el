@@ -1,7 +1,4 @@
-;;; tradexpress-mode.el --- major mode for TradeXpress .rte files
-
-;; Copyright © 2015, Jaime Tarrant
-
+;;; tradexpress-mode.el --- major mode for TradeXpress .rte file
 ;; Author: Jaime Tarrant <jdt@cookiesystems.com>
 ;; Version: 0.1
 ;; Created: 02 November 2015
@@ -27,7 +24,7 @@
 
 ;; define several category of keywords
 (setq tx-codeblocks '("default" "enddefault" "function" "endfunction" "begin" "endbegin" "end" "endend" "segment" "endsegment" "line" "endline" "nodein"	"endnodein" "nodeout" "endnodeout" "message"))
-(setq tx-keywords   '("break" "if" "else" "endif" "while" "endwhile"  "for" "case" "switch" "return" "exit" "then" "do")) 
+(setq tx-keywords   '("break" "if" "else" "endif" "while" "endwhile"  "for" "case" "switch" "endswitch" "return" "exit" "then" "do"))
 (setq tx-types      '("float" "integer" "key" "list" "rotation" "string" "vector"))
 (setq tx-constants  '("TRUE" "FALSE" "NL"))
 (setq tx-events     '())

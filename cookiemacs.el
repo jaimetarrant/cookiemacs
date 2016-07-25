@@ -55,6 +55,7 @@
 ;; Load module configurations in cookiemacs-modules
 ;;
 
+(message "Loading: " (concat cookiemacs-root "/.cookiemacs/plugins"))
 (let ((cookiemacs-modules (concat cookiemacs-root "/.cookiemacs/plugins")))
   (add-to-list 'load-path cookiemacs-modules)
   (dolist (f (directory-files cookiemacs-modules))

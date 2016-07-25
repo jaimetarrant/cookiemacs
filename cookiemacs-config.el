@@ -10,8 +10,8 @@
 (message "Initialisating Cookiemacs Configurations")
 (require 'cl)
 
-(require 'jdt-tweaks)
 (require 'cookiemacs-packages)
+(require 'jdt-tweaks)
 (require 'anzu-config)
 (require 'ido-config)
 (require 'company-config)
@@ -30,6 +30,7 @@
 (require 'tramp)
 (require 'deft-config)
 (require 'bbdb-config)
+;; (require 'cyberpunk-theme)
 
 (global-flycheck-mode t)
 (add-hook 'after-init-hook 'global-company-mode)
