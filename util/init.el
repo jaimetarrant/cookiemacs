@@ -1,2 +1,8 @@
+
+;;; Code:
+
 (add-to-list 'load-path "~/.cookiemacs")
-(require 'cookiemacs-config)
+
+(require 'cookiemacs)
+
+;;; init.el ends here
