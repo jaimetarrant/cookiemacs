@@ -1,5 +1,5 @@
 
-;;; Code: 
+;;; Code:
 
 ;; Make sure emacs knows who I am
 (setq user-full-name "Jaime Tarrant")
@@ -91,8 +91,6 @@ prefix argument, the process's buffer is displayed."
 (defun launch-sentinel (proc event)
   "Reports on changes in `launch'ed applications."
   (message (format "%s: %s" proc event)))
-
-(global-set-key (kbd "s-x") 'launch)
 
 (message "jdt-tweaks loaded...")
 

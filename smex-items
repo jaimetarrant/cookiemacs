@@ -1,0 +1,33 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ eval-region
+ auto-fill-mode
+ toggle-word-wrap
+ slime
+ replace-regexp
+ graphviz-dot-mode
+)
+
+;; ----- smex-data -----
+(
+ (comment-region . 1)
+ (apropos-variable . 1)
+ (describe-variable . 3)
+ (uncomment-region . 1)
+ (auto-fill-mode . 26)
+ (package-install . 2)
+ (helm-M-x . 3)
+ (customize-themes . 3)
+ (server-start . 2)
+ (goto-char . 3)
+ (company-clang . 2)
+ (graphviz-dot-mode . 2)
+ (graphviz-dot-view . 2)
+ (prose-mode . 4)
+ (replace-regexp . 6)
+ (slime . 1)
+ (toggle-word-wrap . 1)
+ (eval-region . 1)
+)

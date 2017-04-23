@@ -15,6 +15,7 @@
 (require 'better-defaults)
 (require 'anzu-config)
 (require 'adoc-mode)
+(require 'aq)
 ;;(require 'ido-config)
 (require 'helm)
 (require 'helm-setup)
