@@ -49,11 +49,15 @@
 
 ;; (require 'evil)
 
+(load "/home/jdt/quicklisp/clhs-use-local.el" t)
+
+(setq browse-url-firefox-program "firefox")
+
 (linum-relative-on)
 ;; (evil-mode 1)
 (global-flycheck-mode t)
 (add-hook 'after-init-hook 'global-company-mode)
-(ac-config-default)
+;; (ac-config-default)
 
 (setq delete-old-versions t)
 

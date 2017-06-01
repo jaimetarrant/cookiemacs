@@ -14,7 +14,7 @@
 ;; our configuration is supposed to be.
 
 (defvar cookiemacs-root (if (eq system-type 'windows-nt)
-  "c:/Users/TARRAJ/AppData/Roaming" "/home/jdt"))
+ "c:/Users/TARRAJ/AppData/Roaming" "/home/jdt"))
 
  (add-to-list 'load-path 'cookiemacs-root)
 
@@ -86,8 +86,8 @@
 (unless (server-running-p)
   (when (and ( >= emacs-major-version 23)
 	     (equal window-system 'w32))
-    (defun server-ensure-safe-dir (dir) "Noop" t)
-    (server-start)))
+    (defun server-ensure-safe-dir (dir) "Noop" t))
+  (server-start))
 
 (message "emacs server started ...")
 (message "loading cookiemacs configuration")

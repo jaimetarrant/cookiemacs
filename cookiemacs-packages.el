@@ -1,4 +1,5 @@
 
+
 ;;; Code:
 
 (require 'package)
@@ -8,12 +9,12 @@
 (message "Loading Cookiemacs Packages from cookiemacs-packages.el")
 
 (defconst cookiemacs-packages
-          '(ac-slime
+          '(;;ac-slime
              ace-jump-mode
              adoc-mode
              anzu
              autopair
-             auto-complete
+             ;; auto-complete
              auto-yasnippet
 	     base16-theme
              better-defaults
@@ -30,6 +31,7 @@
              company-irony
 	     company-quickhelp
 	     company-statistics
+             company-ycmd
 	     cyberpunk-theme
 	     deft
              dired+
@@ -41,6 +43,7 @@
              evil
 	     exec-path-from-shell
              flycheck
+	     flycheck-ycmd
              flycheck-rust
              flymake-jshint
              ggtags
